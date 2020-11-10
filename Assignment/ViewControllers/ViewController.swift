@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     
     // MARK: - Private Methods -
     fileprivate func setupView() {
-        
+        self.title = "Users"
     }
     
     fileprivate func setupTableView() {
