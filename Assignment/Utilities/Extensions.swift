@@ -147,7 +147,7 @@ extension UIPopoverPresentationController {
     }
 }
 
-
+// MARK: - String -
 extension String {
     public var userImageURL: URL? {
         
@@ -159,5 +159,22 @@ extension String {
         }
         
         return nil
+    }
+}
+
+// MARK: - UITableView -
+public extension UITableView {
+    
+    func removeCellSeparatorOffset() {
+        self.separatorInset = .zero
+        
+        self.preservesSuperviewLayoutMargins = false
+        
+        self.layoutMargins = .zero
+        
+    }
+    
+    func removeSeperateIndicatorsForEmptyCells() {
+        self.tableFooterView = UIView()
     }
 }

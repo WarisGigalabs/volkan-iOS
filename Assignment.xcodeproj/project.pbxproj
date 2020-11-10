@@ -23,6 +23,7 @@
 		77BD0AB42555C380008904E3 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BD0AB32555C380008904E3 /* APIHelper.swift */; };
 		77BD0ABE25571D50008904E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BD0A7C2555B7BF008904E3 /* Main.storyboard */; };
 		77BD0AC225571D54008904E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BD0A7A2555B7BF008904E3 /* LaunchScreen.storyboard */; };
+		77D1795D255B18FD00B1A722 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D1795C255B18FD00B1A722 /* BaseTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		77BD0A992555BD49008904E3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		77BD0A9E2555BEAF008904E3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		77BD0AB32555C380008904E3 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		77D1795C255B18FD00B1A722 /* BaseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 			children = (
 				77BD0A942555BD42008904E3 /* Constants.swift */,
 				77BD0A992555BD49008904E3 /* Extensions.swift */,
+				77D1795C255B18FD00B1A722 /* BaseTableView.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				77BD0A9F2555BEAF008904E3 /* UserModel.swift in Sources */,
 				77BD0A692555B721008904E3 /* ViewController.swift in Sources */,
 				7766ED55255AF285001993D4 /* Services.swift in Sources */,
+				77D1795D255B18FD00B1A722 /* BaseTableView.swift in Sources */,
 				77BD0A642555B721008904E3 /* AppDelegate.swift in Sources */,
 				77BD0A662555B721008904E3 /* SceneDelegate.swift in Sources */,
 				77BD0A952555BD42008904E3 /* Constants.swift in Sources */,

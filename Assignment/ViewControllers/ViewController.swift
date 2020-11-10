@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     // MARK: - IBOutlet -
-    @IBOutlet weak var tblData: UITableView!
+    @IBOutlet weak var tblData: BaseTableView!
     
     
     
@@ -48,10 +48,12 @@ class ViewController: UIViewController {
         self.tblData.tableFooterView = UIView()
         
         self.tblData.register(UserTableViewCell.nib, forCellReuseIdentifier: UserTableViewCell.reuseIdentifier)
+        
+        self.tblData.refreshController.addTarget(self, action: #selector(self.getUsers), for: .valueChanged)
     }
     
     // MARK: - API Methods -
-    func getUsers() {
+    @objc func getUsers() {
         
         ServicesManager.getUsers { (users) in
             
